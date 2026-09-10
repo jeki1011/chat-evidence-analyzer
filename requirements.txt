@@ -1,0 +1,5 @@
+# 核心依赖：本地 OCR 引擎（纯 onnxruntime，无需联网、无需账号）
+rapidocr-onnxruntime>=1.3.0
+
+# 仅在生成示例截图时需要（tools/make_sample_images.py）
+pillow>=10.0.0
